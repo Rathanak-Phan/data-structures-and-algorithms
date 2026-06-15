@@ -2,7 +2,7 @@
 
 ---
 
-# 🧠 1. Foundations of Computer Science
+#  1. Foundations of Computer Science
 
 | Status | Topic               | What to Learn (Granular)            | Practice                   |
 | ------ | ------------------- | ----------------------------------- | -------------------------- |
@@ -187,11 +187,11 @@
 
 ---
 
-# 🎯 IMPORTANT (FOR YOU)
+#  IMPORTANT (FOR YOU)
 
 Since I’m your DSA tutor, I won’t just give roadmap — I’ll guide you step-by-step.
 
-👉 You are currently here:
+ You are currently here:
 
 * 🟨 Arrays basics
 * 🟨 Recursion basics
@@ -199,11 +199,11 @@ Since I’m your DSA tutor, I won’t just give roadmap — I’ll guide you ste
 
 ---
 
-# 🔥 NEXT STEP (VERY IMPORTANT)
+#  NEXT STEP (VERY IMPORTANT)
 
 We should NOT jump randomly.
 
-👉 We go in this exact order:
+ We go in this exact order:
 
 1. Arrays (finish completely)
 2. Then Strings
@@ -211,7 +211,7 @@ We should NOT jump randomly.
 
 ---
 
-# 👇 Let me check your understanding first
+#  Let me check your understanding first
 
 Answer this:
 
