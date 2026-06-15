@@ -8,5 +8,11 @@
 /build/
 /bin/
 
+# Debug files
+*.log
+
+# Mac/Linux temp
+.DS_Store
+
 # VS Code
 .vscode/
