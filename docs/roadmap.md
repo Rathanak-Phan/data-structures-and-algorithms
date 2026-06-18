@@ -1,225 +1,155 @@
-#  FULL DATA STRUCTURES & ALGORITHMS ROADMAP (WITH STATUS)
+#  FULL DATA STRUCTURES & ALGORITHMS ROADMAP (ENGINEERING TRACK)
+
+### Status Legend:
+
+* 🔴 Not Started
+* 🟡 Learning
+* 🟢 Practicing
+* 🔵 Applied (Real Problems / Projects)
+* ⚫ Mastered
 
 ---
 
 #  1. Foundations of Computer Science
 
-| Status | Topic               | What to Learn (Granular)            | Practice                   |
-| ------ | ------------------- | ----------------------------------- | -------------------------- |
-| 🟨     | Algorithm Basics    | Definition, properties, correctness | Analyze simple algorithms  |
-| 🟨     | Time Complexity     | Big-O, Big-Θ, Big-Ω                 | Compare algorithms         |
-| 🟨     | Space Complexity    | Memory usage, recursion stack       | Optimize space             |
-| ⬜      | Asymptotic Analysis | Worst/avg/best case                 | Predict complexity         |
-| ⬜      | Mathematical Tools  | Logarithms, recurrences             | Solve recurrence relations |
-| ⬜      | Master Theorem      | Divide & conquer analysis           | Apply on merge sort        |
+| Topic               | What to Learn (Granular)            | Practice                  | Status | Score(Before) | Score(After) | Notes |
+| ------------------- | ----------------------------------- | ------------------------- | ------ | ------------- | ------------ | ----- |
+| Algorithm Basics    | Definition, correctness, efficiency | Analyze simple algorithms | 🟢     | 7/10          | 9/10         |       |
+| Time Complexity     | Big-O, Θ, Ω                         | Compare algorithms        | 🟡     | 4/10          | ./10         |       |
+| Space Complexity    | Memory usage                        | Optimize recursion        | 🟡     | ./10          | ./10         |       |
+| Asymptotic Analysis | Worst/avg/best case                 | Predict runtime           | 🔴     | ./10          | ./10         |       |
+| Mathematical Tools  | Logs, recurrences                   | Solve equations           | 🔴     | ./10          | ./10         |       |
+| Master Theorem      | Divide & conquer                    | Analyze merge sort        | 🔴     | ./10          | ./10         |       |
 
 ---
 
-#  2. Arrays & Strings
+#  2. Arrays & Strings (CURRENT FOCUS)
 
-| Status | Topic            | What to Learn            | Practice              |
-| ------ | ---------------- | ------------------------ | --------------------- |
-| 🟨     | Arrays Basics    | Indexing, traversal      | Reverse array         |
-| 🟨     | Dynamic Arrays   | Resize behavior          | Python list behavior  |
-| 🟨     | Prefix Sum       | Range queries            | Subarray sum problems |
-| ⬜      | Sliding Window   | Fixed & variable window  | Max subarray problems |
-| ⬜      | Strings Basics   | Immutability, operations | Reverse string        |
-| ⬜      | Palindrome       | Two pointers             | Check palindrome      |
-| ⬜      | Pattern Matching | Naive matching           | Substring search      |
+| Topic            | What to Learn                 | Practice         | Status | Score(Before) | Score(After) | Notes |
+| ---------------- | ----------------------------- | ---------------- | ------ | ------------- | ------------ | ----- |
+| Arrays Basics    | Indexing, traversal           | Reverse array    | 🟡     | ./10          | ./10         |       |
+| Dynamic Arrays   | Resize behavior (Python list) | Append/pop       | 🟡     | ./10          | ./10         |       |
+| Prefix Sum       | Range queries                 | Subarray sum     | 🟡     | ./10          | ./10         |       |
+| Sliding Window   | Fixed/variable window         | Max subarray     | 🔴     | ./10          | ./10         |       |
+| Strings Basics   | Operations, immutability      | Reverse string   | 🔴     | ./10          | ./10         |       |
+| Palindrome       | Two pointers                  | Check palindrome | 🔴     | ./10          | ./10         |       |
+| Pattern Matching | Naive search                  | Substring search | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  3. Linked Lists
 
-| Status | Topic           | What to Learn         | Practice           |
-| ------ | --------------- | --------------------- | ------------------ |
-| ⬜      | Singly LL       | Node, pointer         | Build linked list  |
-| ⬜      | Doubly LL       | prev/next             | Reverse DLL        |
-| ⬜      | Circular LL     | Loop structure        | Detect cycle       |
-| ⬜      | Reverse LL      | Iterative/recursive   | Reverse list       |
-| ⬜      | Cycle Detection | Floyd’s algorithm     | Detect loop        |
-| ⬜      | Merge Lists     | Two pointer technique | Merge sorted lists |
+| Topic           | What to Learn       | Practice           | Status | Score(Before) | Score(After) | Notes |
+| --------------- | ------------------- | ------------------ | ------ | ------------- | ------------ | ----- |
+| Singly LL       | Node + pointer      | Build list         | 🔴     | ./10          | ./10         |       |
+| Doubly LL       | prev/next           | Reverse DLL        | 🔴     | ./10          | ./10         |       |
+| Circular LL     | Loop structure      | Detect cycle       | 🔴     | ./10          | ./10         |       |
+| Reverse LL      | Iterative/recursive | Reverse list       | 🔴     | ./10          | ./10         |       |
+| Cycle Detection | Floyd’s algorithm   | Detect loop        | 🔴     | ./10          | ./10         |       |
+| Merge Lists     | Two pointers        | Merge sorted lists | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  4. Stacks & Queues
 
-| Status | Topic           | What to Learn         | Practice             |
-| ------ | --------------- | --------------------- | -------------------- |
-| ⬜      | Stack           | LIFO                  | Implement stack      |
-| ⬜      | Queue           | FIFO                  | Implement queue      |
-| ⬜      | Deque           | Double-ended          | Sliding window max   |
-| ⬜      | Monotonic Stack | Increasing/decreasing | Next greater element |
-| ⬜      | Applications    | Recursion, undo       | Valid parentheses    |
+| Topic           | What to Learn         | Practice             | Status | Score(Before) | Score(After) | Notes |
+| --------------- | --------------------- | -------------------- | ------ | ------------- | ------------ | ----- |
+| Stack           | LIFO                  | Implement stack      | 🔴     | ./10          | ./10         |       |
+| Queue           | FIFO                  | Implement queue      | 🔴     | ./10          | ./10         |       |
+| Deque           | Double-ended          | Sliding window max   | 🔴     | ./10          | ./10         |       |
+| Monotonic Stack | Increasing/decreasing | Next greater element | 🔴     | ./10          | ./10         |       |
+| Applications    | Recursion, undo       | Valid parentheses    | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  5. Hashing
 
-| Status | Topic           | What to Learn      | Practice              |
-| ------ | --------------- | ------------------ | --------------------- |
-| ⬜      | Hash Table      | Key-value storage  | Build hashmap         |
-| ⬜      | Hash Functions  | Distribution       | Collision examples    |
-| ⬜      | Collision       | Chaining/open addr | Implement both        |
-| ⬜      | Frequency Count | Counting patterns  | Most frequent element |
+| Topic           | What to Learn      | Practice              | Status | Score(Before) | Score(After) | Notes |
+| --------------- | ------------------ | --------------------- | ------ | ------------- | ------------ | ----- |
+| Hash Table      | Key-value          | Build hashmap         | 🔴     | ./10          | ./10         |       |
+| Hash Functions  | Distribution       | Collision examples    | 🔴     | ./10          | ./10         |       |
+| Collision       | Chaining/open addr | Implement both        | 🔴     | ./10          | ./10         |       |
+| Frequency Count | Counting patterns  | Most frequent element | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  6. Trees
 
-| Status | Topic          | What to Learn        | Practice              |
-| ------ | -------------- | -------------------- | --------------------- |
-| ⬜      | Binary Tree    | Structure            | Build tree            |
-| ⬜      | DFS Traversals | Inorder/pre/post     | Print traversals      |
-| ⬜      | BFS Traversal  | Level order          | Level traversal       |
-| ⬜      | BST            | Insert/search/delete | Build BST             |
-| ⬜      | Balanced Trees | AVL/Red-Black basics | Concept understanding |
-| ⬜      | Heap           | Min/Max heap         | Priority queue        |
+| Topic          | What to Learn        | Practice         | Status | Score(Before) | Score(After) | Notes |
+| -------------- | -------------------- | ---------------- | ------ | ------------- | ------------ | ----- |
+| Binary Tree    | Structure            | Build tree       | 🔴     | ./10          | ./10         |       |
+| DFS Traversals | In/pre/post order    | Print traversals | 🔴     | ./10          | ./10         |       |
+| BFS Traversal  | Level order          | Level traversal  | 🔴     | ./10          | ./10         |       |
+| BST            | Insert/search/delete | Build BST        | 🔴     | ./10          | ./10         |       |
+| Balanced Trees | AVL/Red-Black        | Concepts         | 🔴     | ./10          | ./10         |       |
+| Heap           | Min/Max heap         | Priority queue   | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  7. Graphs
 
-| Status | Topic            | What to Learn              | Practice                |
-| ------ | ---------------- | -------------------------- | ----------------------- |
-| ⬜      | Graph Basics     | Nodes/edges                | Build graph             |
-| ⬜      | Representation   | List vs matrix             | Convert both            |
-| ⬜      | BFS              | Shortest path (unweighted) | Traverse graph          |
-| ⬜      | DFS              | Depth exploration          | Detect cycles           |
-| ⬜      | Dijkstra         | Shortest path              | Weighted graph          |
-| ⬜      | Topological Sort | DAG ordering               | Course schedule problem |
+| Topic            | What to Learn            | Practice        | Status | Score(Before) | Score(After) | Notes |
+| ---------------- | ------------------------ | --------------- | ------ | ------------- | ------------ | ----- |
+| Graph Basics     | Nodes/edges              | Build graph     | 🔴     | ./10          | ./10         |       |
+| Representation   | List vs matrix           | Convert both    | 🔴     | ./10          | ./10         |       |
+| BFS              | Shortest path            | Traverse        | 🔴     | ./10          | ./10         |       |
+| DFS              | Depth exploration        | Detect cycle    | 🔴     | ./10          | ./10         |       |
+| Dijkstra         | Shortest path (weighted) | Implement       | 🔴     | ./10          | ./10         |       |
+| Topological Sort | DAG ordering             | Course schedule | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  8. Sorting Algorithms
 
-| Status | Topic       | What to Learn    | Practice  |
-| ------ | ----------- | ---------------- | --------- |
-| 🟨     | Bubble Sort | Basic sorting    | Implement |
-| ⬜      | Selection   | Min selection    | Implement |
-| ⬜      | Insertion   | Incremental sort | Implement |
-| ⬜      | Merge Sort  | Divide & conquer | Implement |
-| ⬜      | Quick Sort  | Partitioning     | Implement |
-| ⬜      | Heap Sort   | Heap usage       | Implement |
+| Topic       | What to Learn    | Practice  | Status | Score(Before) | Score(After) | Notes |
+| ----------- | ---------------- | --------- | ------ | ------------- | ------------ | ----- |
+| Bubble Sort | Basic sorting    | Implement | 🔴     | ./10          | ./10         |       |
+| Selection   | Min selection    | Implement | 🔴     | ./10          | ./10         |       |
+| Insertion   | Incremental sort | Implement | 🔴     | ./10          | ./10         |       |
+| Merge Sort  | Divide & conquer | Implement | 🔴     | ./10          | ./10         |       |
+| Quick Sort  | Partitioning     | Implement | 🔴     | ./10          | ./10         |       |
+| Heap Sort   | Heap usage       | Implement | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  9. Searching Algorithms
 
-| Status | Topic         | What to Learn     | Practice          |
-| ------ | ------------- | ----------------- | ----------------- |
-| 🟨     | Linear Search | Sequential        | Implement         |
-| 🟨     | Binary Search | Sorted arrays     | Implement         |
-| ⬜      | Variants      | Lower/upper bound | Search variations |
+| Topic         | What to Learn     | Practice | Status | Score(Before) | Score(After) | Notes |
+| ------------- | ----------------- | -------- | ------ | ------------- | ------------ | ----- |
+| Linear Search | Sequential        | Code     | 🔴     | ./10          | ./10         |       |
+| Binary Search | Sorted arrays     | Code     | 🔴     | ./10          | ./10         |       |
+| Variants      | Lower/upper bound | Practice | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  10. Recursion & Backtracking
 
-| Status | Topic          | What to Learn     | Practice             |
-| ------ | -------------- | ----------------- | -------------------- |
-| 🟨     | Recursion      | Base + recursive  | Factorial, Fibonacci |
-| ⬜      | Recursion Tree | Visualization     | Trace calls          |
-| ⬜      | Backtracking   | Explore all paths | N-Queens             |
-| ⬜      | Permutations   | Generate all      | Subsets/permutations |
+| Topic          | What to Learn    | Practice    | Status | Score(Before) | Score(After) | Notes |
+| -------------- | ---------------- | ----------- | ------ | ------------- | ------------ | ----- |
+| Recursion      | Base + recursive | Fibonacci   | 🔴     | ./10          | ./10         |       |
+| Recursion Tree | Visualization    | Trace calls | 🔴     | ./10          | ./10         |       |
+| Backtracking   | Explore paths    | N-Queens    | 🔴     | ./10          | ./10         |       |
+| Permutations   | Generate all     | Subsets     | 🔴     | ./10          | ./10         |       |
 
 ---
 
 #  11. Dynamic Programming
 
-| Status | Topic       | What to Learn        | Practice         |
-| ------ | ----------- | -------------------- | ---------------- |
-| ⬜      | DP Basics   | Overlapping problems | Fibonacci DP     |
-| ⬜      | Memoization | Top-down             | Cache recursion  |
-| ⬜      | Tabulation  | Bottom-up            | Iterative DP     |
-| ⬜      | Knapsack    | Classic problem      | Solve variations |
-| ⬜      | LCS         | String DP            | Implement        |
+| Topic       | What to Learn        | Practice     | Status | Score(Before) | Score(After) | Notes |
+| ----------- | -------------------- | ------------ | ------ | ------------- | ------------ | ----- |
+| DP Basics   | Overlapping problems | Fibonacci DP | 🔴     | ./10          | ./10         |       |
+| Memoization | Top-down             | Cache        | 🔴     | ./10          | ./10         |       |
+| Tabulation  | Bottom-up            | Iterative DP | 🔴     | ./10          | ./10         |       |
+| Knapsack    | Classic              | Variations   | 🔴     | ./10          | ./10         |       |
+| LCS         | String DP            | Implement    | 🔴     | ./10          | ./10         |       |
 
 ---
 
-#  12. Greedy Algorithms
+#  HOW TO USE (ENGINEER MODE)
 
-| Status | Topic               | What to Learn | Practice           |
-| ------ | ------------------- | ------------- | ------------------ |
-| ⬜      | Greedy Basics       | Local optimum | Activity selection |
-| ⬜      | Fractional Knapsack | Greedy choice | Solve problem      |
-| ⬜      | Huffman Coding      | Encoding      | Build tree         |
+You already wrote it well, but here’s the **DSA mindset version**:
 
----
-
-#  13. Bit Manipulation
-
-| Status | Topic          | What to Learn  | Practice         |
-| ------ | -------------- | -------------- | ---------------- |
-| ⬜      | Bit Operations | AND, OR, XOR   | Basic problems   |
-| ⬜      | Bit Tricks     | Set/clear bits | Odd/even checks  |
-| ⬜      | Bit Masking    | Subsets        | Generate subsets |
-
----
-
-#  14. String Algorithms
-
-| Status | Topic      | What to Learn    | Practice      |
-| ------ | ---------- | ---------------- | ------------- |
-| ⬜      | KMP        | Pattern matching | Implement     |
-| ⬜      | Rabin-Karp | Rolling hash     | String search |
-| ⬜      | Trie       | Prefix tree      | Word search   |
-
----
-
-#  15. Advanced Topics
-
-| Status | Topic        | What to Learn | Practice           |
-| ------ | ------------ | ------------- | ------------------ |
-| ⬜      | Union-Find   | Disjoint set  | Connectivity       |
-| ⬜      | Segment Tree | Range queries | Build tree         |
-| ⬜      | Fenwick Tree | Prefix sums   | BIT implementation |
-| ⬜      | Network Flow | Max flow      | Ford-Fulkerson     |
-
----
-
-#  Status Guide
-
-* ⬜ = Not started
-* 🟨 = Learning
-* ✅ = Done
-* 🔁 = Review again
-
----
-
-#  IMPORTANT (FOR YOU)
-
-Since I’m your DSA tutor, I won’t just give roadmap — I’ll guide you step-by-step.
-
- You are currently here:
-
-* 🟨 Arrays basics
-* 🟨 Recursion basics
-* 🟨 Searching + Bubble sort
-
----
-
-#  NEXT STEP (VERY IMPORTANT)
-
-We should NOT jump randomly.
-
- We go in this exact order:
-
-1. Arrays (finish completely)
-2. Then Strings
-3. Then Linked List
-
----
-
-#  Let me check your understanding first
-
-Answer this:
-
-**Q1:** What is the time complexity of:
-
-* Access element in array?
-* Insert at beginning?
-
-**Q2:** Why is binary search faster than linear search?
-
-Reply with your answers — then I’ll teach you **Arrays (deep level like interview engineer)** 🚀
+* Study concept → 🟡
+* Solve easy problems → 🟢
+* Solve medium/hard → 🔵
+* Can explain + optimize → ⚫
